@@ -1,0 +1,158 @@
+.linear__form {
+    background: #00CAEB;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 3px 4px 30px rgb(136 136 136 / 10%);
+}
+
+
+.mySubmit {
+    background-color: #27608f !important;
+}
+
+
+#loaderIcon {
+    width: 10%;
+    padding-left:5px;
+}
+
+
+@media (min-width:1020px) {
+
+.address-section .banner2-vector {
+    position: absolute;
+    left: 15%;
+    top: 280%;
+    z-index: 2;
+    animation: rotate 7s linear infinite;
+}
+
+.address-section .banner2-circle1 {
+    position: relative;
+    float: right;
+    right: 10%;
+    /* top: 200px; */
+    bottom: 400px;
+    z-index: 2;
+    animation: rotate 7s linear infinite;
+    animation-delay: 1s;
+}
+
+
+.address-section .banner2-circle2 {
+    position: relative;
+    left: 10%;
+    bottom: 0;
+    z-index: 2;
+    animation: rotate 7s linear infinite;
+    animation-delay: 1s;
+}
+
+.address-section .banner2-spring1 {
+    position: relative;
+    float: right;
+    right: 30%;
+    top: 0;
+    z-index: 2;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.address-section .banner2-spring2 {
+    position: relative;
+    left: 20%;
+    top: 0;
+    z-index: 2;
+}
+
+}
+
+
+@media (max-width:1020px) {
+
+    .address-section .banner2-vector {
+        display: none;
+    }
+    
+    .address-section .banner2-circle1 {
+        display: none;
+    }
+    
+    
+    .address-section .banner2-circle2 {
+        display: none;
+    }
+    
+    .address-section .banner2-spring1 {
+      display: none;
+    }
+    
+    .address-section .banner2-spring2 {
+        display: none;
+    }
+
+    }
+
+
+    @media (min-width:991px) {
+        .mobile__menu {
+            display: none;
+        }
+    }
+
+    @media (max-width:991px) {
+        .banner-section2 .slider-bg-2::before {
+            background: url(../images/bg/banner2-bg2_responsive.png);
+        }
+
+        .banner-section2 .slider-bg-1::before {
+            background-image: url(../images/bg/home1-banner_responsive.png);
+        }
+    }
+
+
+    @media(max-width:576px) {
+        header.style-2 .header-logo {
+            padding: 15px 0;
+            text-align: center;
+        }
+    }
+
+    @media (max-width:768px) {
+        .mobile__menu {
+            font-size: 30px;
+        }
+    }
+
+    @media (max-width:680px) {
+        header.style-2 .main-nav {
+            display: none;
+        }
+
+        .banner-section2 .slider-bg-2::before {
+            background: url(../images/bg/banner2-bg2_phone.png);
+        }
+    }
+   
+
+
+    @media (max-width:380px) {
+        .banner-section2 .banner2-content h1, 
+        .banner-section2 .banner2-content h2 {
+            font-size: 3rem;
+        }
+    }
+
+    @media (max-width:300px) {
+        .banner-section2 .banner2-content h1, 
+        .banner-section2 .banner2-content h2 {
+            font-size: 2rem;
+        }
+        .section-title2 h3 {
+            font-size: 2rem;
+        }
+    }
+
+
+
+
